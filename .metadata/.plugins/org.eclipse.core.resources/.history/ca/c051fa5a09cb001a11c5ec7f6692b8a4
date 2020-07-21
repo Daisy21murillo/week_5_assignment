@@ -1,0 +1,13 @@
+package week5;
+
+public class App {
+	void run() {
+		AsteriskLogger abc = new abc();
+		abc.log("hello");
+	}
+	public static void main(String[] args) {
+		new AsteriskLogger().run();
+
+	}
+
+}

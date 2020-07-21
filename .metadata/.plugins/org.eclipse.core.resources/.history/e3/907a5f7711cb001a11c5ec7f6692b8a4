@@ -1,0 +1,20 @@
+package week5;
+
+import week5.Assignment.AsteriskLogger;
+
+public class App {
+
+	public void run() {
+		AsteriskLogger myTest = new AsteriskLogger();
+		myTest.log("Hello Daisy");
+		myTest.error("404 Not Found");
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		new App().run();
+
+	}
+
+}

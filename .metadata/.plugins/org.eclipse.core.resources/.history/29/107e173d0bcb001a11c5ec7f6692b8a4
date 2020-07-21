@@ -1,0 +1,12 @@
+package week5;
+
+abstract class App implements Logger{
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

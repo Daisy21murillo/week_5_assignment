@@ -1,0 +1,14 @@
+package week5;
+
+public class App implements Logger{
+	void run() {
+		Logger input = new 
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

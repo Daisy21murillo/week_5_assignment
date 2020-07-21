@@ -1,0 +1,19 @@
+package week5;
+
+import week5.Assignment.AsteriskLogger;
+
+public class App {
+	public class App {
+		
+		void run() {
+			AsteriskLogger myTest = new AsteriskLogger();
+			myTest.log("hello");
+			myTest.error("bad");
+		}
+
+		public void main(String[] args) {
+			run();
+			
+		}
+	}
+}

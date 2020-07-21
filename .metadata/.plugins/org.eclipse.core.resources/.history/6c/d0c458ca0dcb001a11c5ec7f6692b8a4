@@ -1,0 +1,39 @@
+package week5;
+
+public class Assignment {
+	
+	static interface Logger {
+		void log(String log);
+		void error(String error);
+	}
+
+	abstract class AsteriskLogger implements Logger {
+		@Override
+		public void log(String log) {
+			System.out.println("***" + log + "***");	
+		}
+
+		@Override
+		public void error(String error) {
+			System.out.println("****************\n" + "***Error: " + error + "***\n" + "****************");		
+		}
+		
+	}
+	
+	abstract class SpacedLogger abstract Logger {
+
+	
+	}
+	
+	
+	 void run() {
+		 Logger spaceLogger = new SpaceLogger();
+		 
+	 }
+
+		public void main(String[] args) {
+			
+	
+		}
+	}
+

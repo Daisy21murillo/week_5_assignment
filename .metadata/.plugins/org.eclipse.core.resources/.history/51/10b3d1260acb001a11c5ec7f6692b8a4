@@ -1,0 +1,13 @@
+package week5;
+
+abstract class AsteriskLogger implements Logger{
+	public void log(String log) {
+		System.out.println("***"+ log + "***");
+	}
+
+
+}
+
+
+//System.out.println("***"+ log + "***");
+//		System.out.println("****************\n" + "***Error: " + error + "***\n" + "****************");
